@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
 # set your user name
-  name: roniangress-hello-world
+  name: user28-hello-world
 spec:
   ports:
     - protocol: TCP
@@ -10,4 +10,4 @@ spec:
       targetPort: 8080
   selector:
 # set your user name
-    app: roniangress-hello-world
+    app: user28-hello-world
